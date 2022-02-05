@@ -35,11 +35,13 @@ const Post = ({ post }: Props) => {
 
   return (
     <main>
+      {/* @ts-ignore */}
       <img className="h-40 w-full object-cover" src={urlFor(post.mainImage)} />
       <article>{post.title}</article>
       <p>{post.author.name}</p>
       <div>
         <PortableText
+          //@ts-ignore
           content={post.body}
           serializers={{
             h1: (props: any) => (
