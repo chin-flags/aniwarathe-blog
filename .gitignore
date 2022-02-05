@@ -35,3 +35,8 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+
+#sanity
+aniwarathe-api/node_modules
+aniwarathe-api/dist
